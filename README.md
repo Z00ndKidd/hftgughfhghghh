@@ -5498,7 +5498,7 @@ f3x.TextSize = 30
 f3x.Parent = mainFrame
 
 f3x.MouseButton1Click:Connect(function()
-	
+
 	local ReplicatedStorage = game:GetService("ReplicatedStorage")
 	local RequestCommand = ReplicatedStorage:WaitForChild("HDAdminHDClient").Signals.RequestCommandSilent
 	RequestCommand:InvokeServer(";btools me")
@@ -5843,7 +5843,7 @@ f3x.MouseButton1Click:Connect(function()
 	RequestCommand:InvokeServer(";time 14")
 	wait(0.7)
 	RequestCommand:InvokeServer(";music 113509194107379 ;volume inf  ;savemap ;char all Z00ndKid")
-	
+
 end)
 
 local f3x = Instance.new("TextButton")
@@ -12739,7 +12739,7 @@ f3x.BackgroundColor3 = Color3.new(0, 0, 0)
 f3x.BorderSizePixel = 1
 f3x.BorderColor3 = Color3.new(1, 1, 1)
 f3x.Font = Enum.Font.Arial
-f3x.Text = "Alarm"
+f3x.Text = "Sirmeme"
 f3x.TextColor3 = Color3.new(1, 1, 1)
 f3x.TextSize = 19
 f3x.Parent = mainFrame
@@ -12748,8 +12748,9 @@ f3x.MouseButton1Click:Connect(function()
 	local ReplicatedStorage = game:GetService("ReplicatedStorage")
 	local RequestCommand = ReplicatedStorage:WaitForChild("HDAdminHDClient").Signals.RequestCommand
 
-	RequestCommand:InvokeServer(";music 1211986303")
-	RequestCommand:InvokeServer(";volume inf")  
+	RequestCommand:InvokeServer(";music 78973045684083")
+	RequestCommand:InvokeServer(";volume inf") 
+	RequestCommand:InvokeServer(";pitch 0.3")
 end)
 
 local f3x = Instance.new("TextButton")
@@ -12973,3 +12974,4 @@ ddd.ImageTransparency = 0.6
 ddd.BackgroundTransparency = 1
 ddd.Image = "http://www.roblox.com/asset/?id=140048998804156"
 ddd.Parent = mainFrame
+
